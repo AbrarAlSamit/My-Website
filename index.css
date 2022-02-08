@@ -1,0 +1,64 @@
+body {
+	background-color: ivory;
+	font-size: 18px;
+	font-weight: 500;
+	line-height: 1.5;
+}
+
+.marg {
+	margin: 50px 50px;
+}
+h1 {
+	text-align: center;
+
+}
+h2 {
+	color: #336600;
+}
+h3 {
+	color: #cc00ff;
+	font-family: fantasy, serif;
+	font-weight: 500;
+}
+img {
+	display: block;
+	padding: 10px;
+	width: 70%;
+}
+.description{
+	font-size: 20px;
+
+}
+.center {
+	text-align: center;
+}
+.User {
+	background-color: #99ccff;
+	padding: 5px;
+	border-radius: 4px;
+}
+
+
+/*tooltip is a class*/
+.tooltip {
+	position: relative;
+  	display: inline-block;	
+}
+/*tooltiptext is a subclass of class tooltip*/
+.tooltiptext {
+	visibility: hidden;
+	width: 80px;
+	bottom: 100%;
+	left: 50%;
+	margin-left: -40px;
+	color: red;
+	text-align: center;
+	padding: 1px 0;
+	font-size: 15px;
+ 
+  /* Position the tooltip text - see examples below! */
+	position: absolute;
+}
+.tooltip:hover .tooltiptext {
+	visibility: visible;
+}
